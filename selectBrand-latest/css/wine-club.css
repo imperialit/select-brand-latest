@@ -1,0 +1,138 @@
+#header .full-width-container.bg-main-banner {
+    background-image: url(../img/wine-club.jpg);
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#edu-1 .full-width-container .container .row .heading {
+    width: 100%;
+}
+#edu-1 .full-width-container .container .row .heading h2 {
+    display: flex;
+    font-size: 30px;
+    color: #2b3687;
+}
+#edu-1 .full-width-container .container .row .heading h2 hr {
+    width: 6%;
+    border-top: 2px solid rgba(0,0,0,.1);
+}
+#edu-1 .full-width-container .container .row {
+    padding: 50px 50px 0px 50px;
+}
+#edu-1 .full-width-container .container .row.wine-club-1 {
+    padding: 50px 50px 0px 50px;
+}
+#edu-1 .full-width-container .container .philosophy {
+    padding: 0px 50px 0px 50px; 
+}
+#edu-1 .full-width-container .container .philosophy hr {
+    margin-top: 40px;
+}
+#edu-1 .full-width-container .container .row.wine-club {
+    padding: 0px 50px 50px 50px;
+}
+#edu-1 .full-width-container .container .row.wine-club h4 {
+    color: #2b3687;
+    font-weight: 400;
+    padding-bottom: 25px;
+}
+#edu-1 .full-width-container .container .row.wine-club ul li {
+    font-size: 14px;
+}
+#edu-1 .full-width-container .container .row.wine-club ul {
+    padding-left: 17px;
+}
+#edu-1 .full-width-container .container .row.wine-club .col-md-6 .col-md-12 .col-md-4 {
+    padding: 0;
+    margin: 0;
+}
+#edu-1 .full-width-container .container .row.wine-club .col-md-6 .col-md-12 .col-md-4 .overlay {
+    background-color: rgba(68, 96, 132, 0.31);
+}
+#edu-1 .full-width-container .container .row.wine-club .col-md-6 .col-md-12 .col-md-4 .bg-color {
+    background-image: url(../img/effects/glass1.png),url(../img/effects/glass2.png);
+    animation: glass 30s linear infinite;
+    background-color: #c6cfda;
+    text-align: center;
+    padding: 100px 0;
+}
+#edu-1 .full-width-container .container .row.wine-club .col-md-6 .col-md-12 .col-md-4 .bg-color img {
+    width: 74%;
+}
+#edu-1 .full-width-container .container .row.wine-club .col-md-6 .col-md-12 .col-md-4 .bg-color h6.opt {
+    padding-top: 12px;
+}
+#edu-1 .full-width-container .container .row.wine-club .col-md-6 .col-md-12 .col-md-4 .bg-color p {
+    margin: 0;
+    font-size: 12px;
+}
+#edu-1 .full-width-container .container .row.wine-club .col-md-6 .col-md-12 .col-md-4 .bg-color hr {
+    width: 80%;
+    background: #dae0e7;
+    border: 1px solid #dae0e7;
+}
+#edu-1 .full-width-container .container .row.wine-club .col-md-6 .col-md-12 {
+    display: flex;
+}
+#edu-1 .full-width-container .container .row.wine-club .col-md-6 .col-md-12 .col-md-8 p {
+    color: #c6d2e4;
+    font-size: 12px;
+    padding-bottom: 50px;
+}
+#edu-1 .full-width-container .container .row.wine-club .col-md-6 .col-md-12 .col-md-8 a {
+    background: #446084;
+    color: #fff;
+    padding: 8px 30px;
+    text-decoration: none;
+}
+#edu-1 .full-width-container .container .row.wine-club .col-md-6 .col-md-12 .col-md-8 {
+    text-align: center;
+    align-self: center;
+}
+
+
+
+
+
+
+@media only screen and (min-device-width : 992px) and (max-device-width : 1200px) and (orientation : portrait) { 
+ 
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 991px) and (orientation : portrait) {
+
+#edu-1 .full-width-container .container .row.wine-club .col-md-6 .col-md-12 .col-md-8 a {
+    padding: 8px 10px;
+    font-size: 12px;
+}
+#edu-1 .full-width-container .container .row.wine-club .col-md-6 .col-md-12 .col-md-8 img {
+    width: 100%;
+}
+  
+    
+}
+@media only screen and (max-device-width : 600px) {
+    
+#edu-1 .full-width-container .container .row.wine-club .col-md-6 .col-md-12 .col-md-8 img {
+    width: 100%;
+}
+#edu-1 .full-width-container .container .row.wine-club .col-md-6 .col-md-12 {
+    display: unset;
+}
+#edu-1 .full-width-container .container .row.wine-club-1 {
+    padding: 50px 20px 0px 20px;
+}
+#edu-1 .full-width-container .container .row .heading h2 {
+    font-size: 19px;
+}
+#edu-1 .full-width-container .container .row .heading h2 hr {
+    display: none;
+}
+#edu-1 .full-width-container .container .row.wine-club {
+    padding: 0px 10px 50px 10px;
+}
+    
+
+    
+}

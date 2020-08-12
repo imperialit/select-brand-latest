@@ -1,0 +1,116 @@
+#header .full-width-container.bg-main-banner {
+    background-image: url(../img/about-banner-2.png);
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*start about css*/
+/*
+#about .full-width-container .container img {
+    display: block;
+    margin: auto;
+    padding-top: 30px;
+	padding-bottom: 30px;
+}
+#about .full-width-container .container a {
+    width: 100%;
+    background: #1883c7;
+    padding: 10px 30px;
+    border-radius: 6px;
+    color: #fff;
+    text-decoration: none;
+}
+*/
+#about .full-width-container .container {
+    padding: 60px 45px 20px 45px;
+    text-align: left;
+}
+#about .full-width-container .container h3 {
+    color: #1683c6;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+#about .full-width-container .container p {
+    padding-top: 15px;
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+}
+#about-2 .full-width-container .container {
+    padding: 30px 50px;
+}
+#about-2 .full-width-container .container .row .col-md-6 img {
+    width: 100%
+}
+#about-2 .full-width-container .container .row .col-md-6 p {
+    font-size: 14px;
+}
+/*end about css*/
+
+#awards .full-width-container .container {
+    padding: 30px 0 50px 0;
+}
+#awards .full-width-container .container h2 {
+    text-align: center;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+    color: #1683c6;
+    font-weight: 800;
+}
+#awards .full-width-container .container div img {
+    width: 21%;
+    margin: 0px 21px;
+}
+
+#team .full-width-container .container {
+    padding: 30px 0 50px 0;
+}
+#team .full-width-container .container h2 {
+    text-align: center;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+    color: #1683c6;
+    font-weight: 800;
+}
+#team .full-width-container .container div img {
+    width: 100%;
+    padding: 0px 21px;
+}
+#team .full-width-container .container .d-loop {
+    box-shadow: 0 3px 20px 0 rgba(0,0,0,0.1);
+    padding: 50px 30px;
+    display: flex;
+}
+#awards .full-width-container .container div {
+    box-shadow: 0 3px 20px 0 rgba(0,0,0,0.1);
+    padding: 50px 30px;
+}
+#team .full-width-container .container .d-loop div p {
+    text-align: center;
+    padding: 10px 0 0 0;
+    margin: 0;
+}
+#team .full-width-container .container .d-loop div h6 {
+    text-align: center;
+}
+
+@media only screen and (min-device-width : 992px) and (max-device-width : 1200px) and (orientation : portrait) { 
+ 
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 991px) and (orientation : portrait) {
+
+  
+    
+}
+@media only screen and (max-device-width : 600px) {
+    
+
+    
+
+    
+}
